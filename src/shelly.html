@@ -1,0 +1,40 @@
+<div class='header'>
+    <h4>Interactive server-side Python shell</h4>
+</div>
+<div class='content'>
+    <div class='left-pane' id='editor'>
+        <div class='toolbar'>
+            <i class='toolbar-item fa fa-folder' id='open-dialog-button' title='Open Script...'></i>
+            <i class='toolbar-item fa fa-play' id='run-button' title='Execute'></i>
+
+            <div class='toolbar-item' id='save-as-button' title='Save As...'></div>
+            <i title='Save Script' id='save-button' class='toolbar-item indicator fa fa-file'></i>
+        </div>
+    </div>
+    <div class='slider'>
+
+    </div>
+    <div class='right-pane'>
+        <i class='fa fa-ban clear-console-button' title='Clear Console'></i>
+
+    </div>
+</div>
+<div class='footer'>
+    initializing...
+</div>
+<div class='dialog' style='display: none;'>
+    <div class='modal-header'>
+        Saved Scripts
+    </div>
+    <div class='modal-body'>
+        <select class='saved-scripts' size='2'>
+            <option>script1</option>
+        </select>
+        <div class='dialog-toolbar'>
+            <i id='delete-button' class='toolbar-item fa fa-trash-o disabled' title='Delete Script...'></i>
+            <i id='cancel-button' title='Cancel' class='toolbar-item fa fa-ban'> Cancel</i>
+            <i id='open-button' title='Open' class='toolbar-item fa fa-folder-open disabled'> Open</i>
+            <div style='clear: both;'></div>
+        </div>
+    </div>
+</div>

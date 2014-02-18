@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Shelly",
+    "version": "1.0.1",
+    "description": "A new interface for GAE's remote-api shell",
+    "web_accessible_resources": [
+        "fontawesome-webfont.svg"
+    ],
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["*://localhost/shell/", "*://*.appspot.com/shell/"],
+            "js": [],
+            "css": ["font-awesome.css", "shelly.css"]
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+.DS_Store
+*.iml
+.idea/*
+build/*
+bower_components/*
+Shelly.pem
